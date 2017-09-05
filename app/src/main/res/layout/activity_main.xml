@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context="in.shgupta.gotowebdial.MainActivity"
+    android:background="@android:color/holo_orange_light"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/urlname"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="open web"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/btnweb"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/dialer"
+            />
+
+
+        <Button
+            android:layout_margin="2dp"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:text="call"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_purple"
+            android:id="@+id/btndial"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
